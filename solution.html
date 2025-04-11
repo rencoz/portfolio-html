@@ -12,40 +12,73 @@ TODO: Change the background color for each device
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-
-  <title>Document</title>
+  <title>Media Query</title>
   <style>
     body {
       background-color: aquamarine;
     }
+    @media (min-width:319px) and (max-width:480px)
+    {body{
+      background-color: blue;
+    }}
+    @media (min-width:481px) and (max-width:1200px)
+    {body{
+      background-color: brown;
+    }}
+    @media (min-width:1201px) and (max-width:1600px)
+    {body{
+      background-color: blueviolet;
+    }}
+    @media (min-width:1601px)
+    {body{
+      background-color: black;
+    }}
+    
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: bolder;
+      color: black;
+     clear:right;
+     color: green;
+     background-color: gray;
 
-    @media (min-width: 319px) and (max-width: 480px) {
-      body {
-        background-color: lightsalmon;
-      }
     }
-
-    @media (min-width: 481px) and (max-width: 1200px) {
-      body {
-        background-color: powderblue;
-      }
+    img{
+      float: right;
+      border-radius: 50px;
+      border-style: dashed;
+      border-color: red;
+      border-width: 5px;
     }
-
-    @media (min-width: 1201px) and (max-width: 1600px) {
-      body {
-        background-color: limegreen;
-      }
+    H3{
+      color: blanchedalmond;
     }
-
-    @media (min-width: 1601px) {
-      body {
-        background-color: seagreen;
-      }
-    }
+    
+    
   </style>
 </head>
 
 <body>
+  <h1>LAWRENCE'S CSS STYLING</h1>
+  <h2>FULL STUCK WEB DEVELOPER BOOTCAMP</h2>
+  <h3>MEDIA QUERIES</h3>
+  <img src="./z85gD0sTOQ0.jpeg" height="300PX" width="200PX" alt="someone standing"> 
+  <p>rencoz css styling with media query skills . it includes styling of <br/>
+    the website by considering the sizes of the screens. in this styling,<br/>
+    small screens like those of small phones it should appear blue, in medium<br/>
+    screens like those of smartphones and tablets it should appear brown,<br/>
+    in large screens like those of laptops it should appear blueviolet and<br/>
+     those screens which are larger than those of laptops for exampel desktop <br/>
+     or a tv should appear black.
+  </p>
+  <p>media queries helps to style the website according to desierd colors. <br/>
+    by use of color proties one is abel to design the website as he/ she dasiers<br/>
+    by use of media queries.
+  </p>
+  <a href="https://www.google.com">about</a>
+
 </body>
 
 </html>
